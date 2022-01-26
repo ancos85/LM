@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<ElcheCF>
+    <cabecera>https://es.wikipedia.org/wiki/Elche</cabecera>
+
+    <entrenador>
+        <categoria>ENTRENADOR</categoria>
+            <nombreEntrenador>Fran</nombreEntrenador>
+                <ApellidoEntrenador>Escribá</ApellidoEntrenador>
+    </entrenador>
+
+    <cincojugadores>
+      <categoria>DELANTERO</categoria>
+           <nombrejugador1>Lucas</nombrejugador1>
+               <apellidoJugador1>Boyé</apellidoJugador1>
+       <categoria>CENTRAL1</categoria>
+           <nombrejugador2>Javier</nombrejugador2>
+               <apellidoJugador2>Pastore</apellidoJugador2>
+       <categoria>CENTRAL2</categoria>
+           <nombrejugador3>Ivan</nombrejugador3>
+               <apellidoJugador3>Marcone</apellidoJugador3>
+       <categoria>DEFENSA1</categoria>
+          <nombrejugador4>Johan</nombrejugador4>
+              <apellidoJugador4>Mojica</apellidoJugador4>
+       <categoria>PORTERO</categoria>
+            <nombrejugador5>Axel</nombrejugador5>
+                <apellidoJugador5>Werner</apellidoJugador5>
+    </cincojugadores>
+</ElcheCF>
+
+    
+
+

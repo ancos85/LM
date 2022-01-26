@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="ejercicio04.css" type="text/css"?>
+
+<disco>
+    <imagen/>
+<caratula>
+    <portada>    
+            <artista>ARTISTA:</artista> 
+            <título>TÍTULO:</título>
+            <sello>SELLO:</sello>
+            <referencia>REFERENCIA: </referencia>
+            <año>AÑO:</año>
+            <pais>PAIS:</pais>
+            <formato>FORMATO:</formato>
+            <genero>GENERO: </genero>
+            <estilo>ESTILO: </estilo>
+            <observaciones>OBSERVACIONES: </observaciones>
+    </portada>
+
+    <cover>
+            <artist>ABC(2)</artist>
+            <title>The Collection</title>
+            <label>KARUSSELL INTERNATIONAL</label>
+            <reference>551 831-2</reference>
+            <year>1996</year>
+            <country>Germany</country>
+            <format>CD - Compilation</format>
+            <genre>Funk / Soul, Electronic</genre>
+            <style>Funk Disco, Synth pop</style>
+            <observations>Licensed from Mercury Records Ltd (London)</observations>
+    </cover>
+</caratula>
+
+<cd1>CD1 </cd1>
+<tracklist>
+    <t01>
+       <numtrack>01</numtrack>
+           <nomtrack>Poison Arrow</nomtrack>
+               <durtrack>[03:23]</durtrack>
+    </t01>
+    <t02>
+        <numtrack>02</numtrack>
+           <nomtrack>The Look Of Love (Part One) - </nomtrack>
+               <durtrack>[03:29]</durtrack>
+    </t02>
+    <t03>
+       <numtrack>03</numtrack>
+           <nomtrack>The Night You Murdered Love - </nomtrack>
+               <durtrack>[04:53]</durtrack>
+    </t03>
+    <t04>
+       <numtrack>04</numtrack>
+           <nomtrack>Tears Are Not Enough - </nomtrack>
+               <durtrack>[03:29]</durtrack>
+    </t04>
+    <t05>
+       <numtrack>05</numtrack>
+          <nomtrack>Be Near Me - </nomtrack>
+              <durtrack>[03:37]</durtrack>
+    </t05>
+    <t06>
+       <numtrack>06</numtrack>
+           <nomtrack>I'm In Love With You - </nomtrack>
+               <durtrack>[04:35]</durtrack>
+    </t06>
+    <t07>
+       <numtrack>07</numtrack>
+          <nomtrack>The Real Thing - </nomtrack>
+              <durtrack>[4:54]</durtrack>
+    </t07>
+    <t08>
+      <numtrack>08</numtrack>
+          <nomtrack>Love's A Dangerous Language - </nomtrack>
+             <durtrack>[03:40]</durtrack>
+    </t08>
+    <t09>
+       <numtrack>09</numtrack>
+          <nomtrack>The Greatest Love Of All - </nomtrack>
+              <durtrack>[04:53]</durtrack>
+    </t09>
+    <t10>
+       <numtrack>10</numtrack>
+          <nomtrack>When Smokey Sings - </nomtrack>
+             <durtrack>[04:18]</durtrack>
+    </t10>
+    <t11>
+      <numtrack>11</numtrack>
+          <nomtrack>One Better World - </nomtrack>
+              <durtrack>[05:38]</durtrack>
+    </t11>
+    <t12>
+       <numtrack>12</numtrack>
+          <nomtrack>Vanity Kills - </nomtrack>
+              <durtrack>[03:29]</durtrack>
+    </t12>
+    <t13>
+       <numtrack>13</numtrack>
+          <nomtrack>Bite The Hand - </nomtrack>
+              <durtrack>[03:07]</durtrack>
+    </t13>
+    <t14>
+       <numtrack>14</numtrack>
+          <nomtrack>Chicago (Abridged) - </nomtrack>
+             <durtrack>[03:40]</durtrack>
+    </t14>
+    <t15>
+       <numtrack>15</numtrack>
+          <nomtrack>Minneapolis - </nomtrack>
+              <durtrack>[02:57]</durtrack>
+    </t15>
+    <t16>
+      <numtrack>16</numtrack>
+          <nomtrack>Think Again - </nomtrack>
+              <durtrack>[03:39]</durtrack>
+    </t16>
+    <t17>
+      <numtrack>17</numtrack>
+         <nomtrack>Never More Than You - </nomtrack>
+             <durtrack>[04:03]</durtrack>
+    </t17>
+    <t18>
+      <numtrack>18</numtrack>
+         <nomtrack>All of my Hearth - </nomtrack>
+             <durtrack>[04:49]</durtrack>
+    </t18>
+</tracklist>
+
+
+</disco>
+
+
+<!--
+
+<track01> 01 <numtrack> Poison Arrow - <timetrack> [03:23]</timetrack></numtrack></track01>
+<track02> 02 <numtrack> The Look Of Love (Part One) - <timetrack> [03:29]</timetrack></numtrack></track02>
+<track03> 03 <numtrack> The Night You Murdered Love - <timetrack> [04:53]</timetrack></numtrack></track03>
+<track04> 04 <numtrack> Tears Are Not Enough - <timetrack> [03:29]</timetrack></numtrack></track04>
+<track05> 05 <numtrack> Be Near Me - <timetrack> [03:37]</timetrack></numtrack></track05>
+<track06> 06 <numtrack> I'm In Love With You - <timetrack> [04:35]</timetrack></numtrack></track06>
+<track07> 07 <numtrack> The Real Thing - <timetrack> [03:23]</timetrack></numtrack></track07>
+<track08> 08 <numtrack> Love's A Dangerous Language - <timetrack> [03:40]</timetrack></numtrack></track08>
+<track09> 09 <numtrack> The Greatest Love Of All -  <timetrack> [04:53]</timetrack></numtrack></track09>
+<track010> 10 <numtrack> When Smokey Sings - <timetrack> [04:18]</timetrack></numtrack></track010>
+<track011> 11 <numtrack> One Better World - <timetrack> [05:38]</timetrack></numtrack></track011>
+<track012> 12 <numtrack> Vanity Kills - <timetrack> [03:29]</timetrack></numtrack></track012>
+<track013> 13 <numtrack> Bite The Hand - <timetrack> [03:07]</timetrack></numtrack></track013>
+<track014> 14 <numtrack> Chicago (Abridged) - <timetrack> [03:40]</timetrack></numtrack></track014>
+
+-->
