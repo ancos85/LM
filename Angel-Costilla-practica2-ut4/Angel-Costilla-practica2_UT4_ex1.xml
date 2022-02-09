@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?!DOCTYPE listin SYSTEM "listin.dtd">
+
+<elpais>
+    <secciones>
+		<noticias>
+			<tecnologia>
+				<noticia01>
+					<cabecera01></cabecera01>
+					<autor01></autor01>
+						<contenido01></contenido01>
+				</noticia01>
+
+				<noticia02>
+				<cabecera02></cabecera02>
+					<autor02></autor02>
+						<contenido02></contenido02>
+				</noticia02>
+
+				<noticia03>
+				<cabecera03></cabecera03>
+					<autor03></autor03>
+						<contenido03></contenido03>
+				</noticia03>
+				</tecnologia>
+			</noticias>
+    </secciones>
+</elpais>
+
+<!ELEMENT elpais <secciones+, noticias+, tecnologia, noticia01, noticia02, noticia03, autor, contenido>
+<!ELEMENT secciones (tecnologia, noticia01, noticia02, noticia03, cabecera, autor, contenido)>
+<!ELEMENT noticias (noticia01, noticia02, noticia03, cabecera, autor, contenido)>
+<!ELEMENT noticia01 (cabecera, autor01,contenido01)
+<!ELEMENT autor (autor*)>
+<!ELEMENT contenido>

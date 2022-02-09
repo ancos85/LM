@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--SINTAXIS
+
+	<RSS "version">
+		<channel>
+		<title></title>
+		<link></link>
+		<description></description>
+		<item>
+		<title></title>
+		<link></link>
+		<description></description>
+		</item>
+		
+	
+
+
+<!--si hay 2 secciones se hace en 2 archivos diferentes-->
+<rss>
+	<channel>
+		<title>ELPAIS.com Seccion Tecnología</title>    
+		<link>https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/tecnologia/portada</link>
+		<description/>
+		
+    
+			<item>
+        
+			<title>Sony empieza a reabrir las plataformas asaltadas</title>
+			<link>www.foo.com/sony</link>
+			<description>Sony ha empezado...</description>
+			</item>
+			<item>
+   
+		<title>El código detrás del tuit</title>
+			<link>de RAFAEL CLEMENTE</link>
+			<description>En el reino de tuitlandia cada día...</description>
+			</item>
+			
+			<item>
+    
+		<title>Google maneja el ruido en la Red para ocultar sus problemas</title>
+			<link>de ADRIAN SEGOVIA</link>
+			<description>Blogger no es una plataformade blogs cualquiera...</description>
+    
+			</item>
+    
+   </channel>
+</rss>
+	
+	<!--
+	<!ELEMENT rss (channel, title*, link*, description )>
+	<!ELEMENT channel (title (#PCDATA), link?, description?)>
+	<!ELEMENT title (#PCDATA)>
+	<!ELEMENT link (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	-->
+	
+
