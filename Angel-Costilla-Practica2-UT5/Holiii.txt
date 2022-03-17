@@ -1,0 +1,4 @@
+Practicas Javascript
+
+Todos los scripts están en un único archivo aunque la extensión es .js 
+por la unidad en curso
