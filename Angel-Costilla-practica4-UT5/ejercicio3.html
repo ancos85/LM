@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3<!--
+        Escribir un programa que lea  edades 
+        hasta que la edad leída sea cero 
+        y los vaya almacenando en un array. 
+        Después, recorriendo el array 
+        que calcule cuántos menores hay (menores de 18 edad), 
+        adultos (entre 18 y 65 edad) 
+        y jubilados (aquellos con más de 65 edad), 
+        mostrando el resultado en pantalla. 
+        En aquellos casos en los que se lea una edad no correcta 
+        (negativa o fuera del intervalo de 0 a 150 edad)
+         se escribir un mensaje de error en pantalla
+         y se leerá otra edad.
+         -->
+    </title>
+</head>
+<body>
+    <script>
+
+        let edad
+        let contador = 0
+        const arrayedad = []
+
+        while (edad !=0)
+        {
+            edad (prompt("Introduce una edad");
+            if (edad > 150)
+            {
+                alert("Introduce un número por debajo de 150...");
+
+            }
+            else if ( edad == 0)
+            {
+                break;
+            }
+            else if (edad < 0 )
+            {
+                alert("Tienes cero edad...Introduce una edad válida...");
+            }
+            else
+            {
+                arrayedad.push(edad)
+            }
+        }
+        for (let index = 0; index < arrayedad.length; index++)
+        {
+            if(arrayedad[index]>65)
+            {
+                alert(arrayedad[index] + "Vespa")
+            }
+            
+            else if(arrayedad[index]<65 && arrayedad[index]>18)
+                {
+                alert(arrayedad[index] + "Adulto")
+                }
+            else if(arrayedad[index]<18)
+            {
+                alert(arrayedad[index] + "Menor")
+            }
+        }
+
+       
+
+    </script>
+</body>
+</html>
+
+
+

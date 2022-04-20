@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4. 
+        <!--Escribe un programa
+        que recorra un Array y que nos devuelva 
+        el número mayor y qué posición ocupa.-->
+    </title>
+</head>
+<body>
+<script>
+
+var AngelArray = new Array()
+
+AngelArray[0] = 200
+AngelArray[1] = 400
+AngelArray[2] = 54
+AngelArray[3] = 64
+AngelArray[4] = 655
+
+let mayor = AngelArray[0];
+
+for (let i=1;i<=AngelArray.length;i++){
+    alert(AngelArray[i])
+    if(AngelArray[i] > mayor)
+    {
+        mayor = AngelArray[i];
+    }
+    console.log("El mayor es " + mayor);
+   
+}
+</script>
+
+
+    
+</body>
+</html>
